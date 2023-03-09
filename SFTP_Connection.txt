@@ -1,0 +1,37 @@
+﻿Connect to SFTP
+
+
+sudo sftp -i <PATH_TO_THE_KEY.pem_ FILE> <user_name>@<IP@>
+
+
+Upload File Using sFTP
+ put <local_file_path> <remote_file_path>
+
+
+Download Files Using sFTP
+get <remote_file_path_to_download>
+Listing Files with sFTP
+On Remote :
+sftp> ls 
+
+
+On Local
+sftp> lls 
+
+
+Switching Directories in sFTP
+On Remote:
+sftp> cd test
+
+
+
+
+On Local:
+sftp> lcd Documents
+
+
+Create Directories Using sFTP
+On Remote:
+sftp> mkdir <Path_new_dir>
+On Local:
+sftp> lmkdir <path_new_dir>
