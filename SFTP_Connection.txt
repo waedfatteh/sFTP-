@@ -1,4 +1,4 @@
-<h2>﻿Connect to SFTP</h2>
+﻿Connect to SFTP
 
 
 $sudo sftp -i <PATH_TO_THE_KEY.pem_ FILE> <user_name>@<IP@>
